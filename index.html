@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ===== SEO：把这两行改成你自己的信息 ===== -->
+  <title>wxx | 个人主页</title>
+  <meta name="description" content="这里写一句话介绍你的网站，会显示在搜索引擎结果里。" />
+
+  <!-- 分享到微信/QQ 时显示的卡片信息（可选） -->
+  <meta property="og:title" content="你的名字 | 个人主页" />
+  <meta property="og:description" content="这里写一句话介绍你的网站。" />
+  <meta property="og:type" content="website" />
+
+  <!-- 网站小图标：替换 favicon.svg 即可换成你自己的 Logo -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- 本模板不依赖任何外部 CDN，国内打开也很快 -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== 顶部导航 ========== -->
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <!-- 【替换】左边的 Logo 文字 -->
+      <a class="nav-logo" href="#top">你的名字</a>
+
+      <button class="nav-toggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#works">我的作品</a></li>
+        <li><a href="#services">我能做什么</a></li>
+        <li><a href="#contact">联系我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ========== 首屏（Hero）========== -->
+    <section class="hero">
+      <div class="container">
+        <p class="hero-eyebrow">你好，我是</p>
+        <h1 class="hero-title">你的名字</h1>
+        <p class="hero-subtitle">
+          【替换】一句话介绍自己，例如：独立开发者 / 设计师 / 内容创作者，专注做好每一件事。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#works">查看我的作品</a>
+          <a class="btn btn-ghost" href="#contact">与我联系</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 关于我 ========== -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">关于我</h2>
+        <p class="section-text reveal">
+          【替换】这里写一段关于你的介绍：你是谁、在做什么、有什么经历。写 2～3 段话，
+          让别人第一次访问就能快速了解你。
+        </p>
+        <p class="section-text reveal">
+          【替换】可以再补充一段：你的兴趣、理念，或者想通过这个网站传递的内容。
+        </p>
+
+        <div class="about-stats reveal">
+          <!-- 【可选】三块数据卡，不需要就整行删掉 -->
+          <div class="stat">
+            <p class="stat-num">5+</p>
+            <p class="stat-label">年经验</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">30+</p>
+            <p class="stat-label">完成项目</p>
+          </div>
+          <div class="stat">
+            <p class="stat-num">10k+</p>
+            <p class="stat-label">读者 / 用户</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 我的作品 ========== -->
+    <section id="works" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title reveal">我的作品</h2>
+        <p class="section-text reveal">【替换】展示你的代表项目，点击卡片可以跳到对应链接。</p>
+
+        <div class="works-grid">
+          <!-- 项目卡片：复制这一整块 <article> 可以增加更多作品 -->
+          <article class="card reveal">
+            <div class="card-thumb" style="--thumb-bg: #6366f1">
+              <span>项目一</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="#" target="_blank" rel="noopener">作品标题一</a></h3>
+              <p>【替换】用一两句话描述这个作品：解决了什么问题、用了什么技术。</p>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-thumb" style="--thumb-bg: #0ea5e9">
+              <span>项目二</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="#" target="_blank" rel="noopener">作品标题二</a></h3>
+              <p>【替换】用一两句话描述这个作品：解决了什么问题、用了什么技术。</p>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-thumb" style="--thumb-bg: #f59e0b">
+              <span>项目三</span>
+            </div>
+            <div class="card-body">
+              <h3><a href="#" target="_blank" rel="noopener">作品标题三</a></h3>
+              <p>【替换】用一两句话描述这个作品：解决了什么问题、用了什么技术。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 我能做什么（服务/技能）========== -->
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title reveal">我能做什么</h2>
+
+        <div class="services-grid">
+          <!-- 技能卡片：复制这一整块 <article> 可以增加更多 -->
+          <article class="service reveal">
+            <div class="service-icon">✏️</div>
+            <h3>服务 / 技能一</h3>
+            <p>【替换】描述这项技能或服务，例如：平面海报、Logo 设计。</p>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-icon">💻</div>
+            <h3>服务 / 技能二</h3>
+            <p>【替换】描述这项技能或服务，例如：企业官网、小程序开发。</p>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-icon">📷</div>
+            <h3>服务 / 技能三</h3>
+            <p>【替换】描述这项技能或服务，例如：产品摄影、短视频剪辑。</p>
+          </article>
+
+          <article class="service reveal">
+            <div class="service-icon">🚀</div>
+            <h3>服务 / 技能四</h3>
+            <p>【替换】描述这项技能或服务，例如：项目咨询、内容策划。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 联系我 ========== -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-wrap">
+        <h2 class="section-title reveal">联系我</h2>
+        <p class="section-text reveal">想合作或聊聊？欢迎给我发邮件，我会尽快回复。</p>
+
+        <a class="btn btn-primary reveal" href="mailto:you@example.com">
+          <!-- 【替换】改成你的真实邮箱 -->
+          you@example.com
+        </a>
+
+        <ul class="contact-links reveal">
+          <!-- 【替换】改成你的真实账号，不需要的整行删掉 -->
+          <li><a href="#" target="_blank" rel="noopener">微博</a></li>
+          <li><a href="#" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="#" target="_blank" rel="noopener">知乎</a></li>
+          <li><a href="#" target="_blank" rel="noopener">小红书</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== 页脚 ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 你的名字 · 保留所有权利</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
